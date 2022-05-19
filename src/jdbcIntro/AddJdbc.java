@@ -8,6 +8,8 @@ public class AddJdbc {
 
 	public static void main(String[] args) throws Exception
 	{
+		
+		// user is my table name in the database named student
 		String url="jdbc:mysql://localhost:3306/student";
 		String name="root";
 		String pass="8789";
